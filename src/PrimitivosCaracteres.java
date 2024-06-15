@@ -1,6 +1,4 @@
-import javax.lang.model.SourceVersion;
-
-public class Caracteres {
+public class PrimitivosCaracteres {
     public static void main(String[] args) {
 
         char caracter = 'A';
@@ -27,6 +25,23 @@ public class Caracteres {
         System.out.println("char corresponde en bites = " + Character.SIZE);
         System.out.println("valor maximo de un char = " + Character.MAX_VALUE);
         System.out.println("valor maximo de un char = " + Character.MIN_VALUE);
+
+        char espacio = ' ';
+        char espacioUnicode = '\u0020';
+
+        System.out.println("espacio =" + espacio + simbolo);
+
+        char retroceso = '\b';
+        System.out.println("espacio =" + retroceso + simbolo);
+
+        char tabulador = '\t';
+        System.out.println("espacio =" + tabulador + simbolo);
+
+        char nuevaLinea = '\n';
+        System.out.println("espacio =" + nuevaLinea + simbolo);
+
+        char retornoCarro = '\r';
+        System.out.println("espacio =" + retornoCarro + simbolo);
 
     }
 }

@@ -1,4 +1,4 @@
-public class Main {
+public class HolaMundo {
     public static void main(String[] args) {
 
         String welcome = "Hola mundo desde Java";
