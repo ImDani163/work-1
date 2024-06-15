@@ -1,8 +1,6 @@
 public class Primitivos {
     public static void main(String [] args){
 
-
-
     // entre -128 a 127
     byte numeroByte = 127;
     System.out.println("numeroByte = " + numeroByte);
@@ -21,7 +19,7 @@ public class Primitivos {
 
     // entre -2147483648 a 214783647
     int numeroInt = 214783647;
-    System.out.println("numeroShort = " + numeroShort);
+    System.out.println("numeroInt = " + numeroInt);
     System.out.println("tipo de int corresponde en byte a" + Integer.BYTES);
     System.out.println("tipo de int corresponde en bits a" + Integer.SIZE);
     System.out.println("valor maximo de un int = " + Integer.MAX_VALUE);
@@ -29,11 +27,14 @@ public class Primitivos {
 
     // entre -9223372036854775808L a 9223372036854775807L
     long numeroLong = 9223372036854775807L;
-    System.out.println("numeroShort = " + numeroShort);
-    System.out.println("tipo de int corresponde en byte a" + Integer.BYTES);
-    System.out.println("tipo de int corresponde en bits a" + Integer.SIZE);
-    System.out.println("valor maximo de un int = " + Integer.MAX_VALUE);
-    System.out.println("valor maximo de un int = " + Integer.MIN_VALUE);
+    System.out.println("numeroLong = " + numeroLong);
+    System.out.println("tipo de long corresponde en byte a" + Long.BYTES);
+    System.out.println("tipo de long corresponde en bits a" + Long.SIZE);
+    System.out.println("valor maximo de un long = " + Long.MAX_VALUE);
+    System.out.println("valor maximo de un long = " + Long.MIN_VALUE);
+
+    var numeroVar = 92233720368547758072F;
+
 
     }
 
